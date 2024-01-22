@@ -17,7 +17,7 @@ export default function App() {
 
       setGuessCount(0)
       setGuessTarget(Math.floor(Math.random() * 100) + 1)
-    } else if (guess > guessTarget) {
+    } else if (guess < guessTarget) {
       setText('Your guess of ' + (guess) + ' was too low.')
     } else {
       setText('Your guess of ' + (guess) + ' was too high.')
