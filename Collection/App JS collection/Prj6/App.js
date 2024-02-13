@@ -47,7 +47,7 @@ export default function App() {
           renderItem={({item}) => 
             <View style={{margin: 5}}>
               <Text style={{fontSize: 18, fontWeight: "bold"}}>{item.strMeal}</Text>
-              <Image source={{uri: item.strMealThumb}} style={{ width: 125, height: 125 }}/>
+              <Image source={{uri: item.strMealThumb}} style={{ width: 200, height: 200 }}/>
             </View>}
           data={mealRequests} 
           ItemSeparatorComponent={listSeparator} /> 
